@@ -13,7 +13,6 @@ const How=()=>{
             <Anatomy/>
             <Special/>
             <ProTip/>
-            <p>This is a trial</p>
         </div>
     )
 }
