@@ -23,15 +23,11 @@ const App = () => {
     }
   };
 
-  const navigate=()=>{
-    nav('./pages/howto')
-  }
-
   return (
 
     <div className="flex flex-col items-center justify-center gap-10 m-30">
       <h1>FLIP 7</h1>
-      <h3> PUSH YOUR LUCK</h3>
+      <h3> PUSH YOUR LUCK</h3> 
       <div className="flex flex-row items-center justify-center gap-10">
         <div>
           <button onClick={addPlayer}>Add player +</button>
