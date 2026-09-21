@@ -1,19 +1,27 @@
-import {useNavigate} from 'react-router-dom';
-import RuleCTA from '/src/components/RuleCTA';
-import Objective from '../components/ObjectiveCTA';
-import Anatomy from '../components/AnatomyCTA';
-import Special from '../components/SpecialCTA';
-import ProTip from '../components/ProtipCTA';
-const How=()=>{
-    return (
+import { useNavigate } from "react-router-dom";
+import RuleCTA from "/src/components/RuleCTA";
 
-        <div>
-            <RuleCTA/>
-            <Objective/>
-            <Anatomy/>
-            <Special/>
-            <ProTip/>
-        </div>
-    )
-}
+import Anatomy from "../components/AnatomyCTA";
+import Special from "../components/SpecialCTA";
+
+const How = () => {
+  const nav = useNavigate();
+  return (
+    <div>
+      <RuleCTA />
+      <Anatomy />
+      <Special />
+      <div className="flex flex-row items-center justify-center gap-10">
+        <button>Play Game </button>
+        <button
+          onClick={() => {
+            nav("/");
+          }}
+        >
+          Select Player Amount
+        </button>
+      </div>
+    </div>
+  );
+};
 export default How;
