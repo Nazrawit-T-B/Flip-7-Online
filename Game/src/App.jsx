@@ -26,22 +26,22 @@ const App = () => {
   return (
 
     <div className="flex flex-col items-center justify-center gap-10 m-30">
-      <h1>FLIP 7</h1>
-      <h3> PUSH YOUR LUCK</h3> 
+      <h1 className="text-[#d8bfc8]">FLIP 7</h1>
+      <h3 className="text-[#d8bfc8]"> PUSH YOUR LUCK</h3> 
       <div className="flex flex-row items-center justify-center gap-10">
         <div>
           <button onClick={addPlayer}>Add player +</button>
         </div>
         <div className="player-count">
-          <h1>{players}</h1>
+          <h1 className="text-[#d8bfc8]">{players}</h1>
         </div>
         <div>
           <button onClick={removePlayer}>Remove player -</button>
         </div>
       </div>
       <div className="flex flex-row items-center justify-center gap-10">
-        <button>Play Game </button>
-        <button onClick={()=>{nav('/howto')}}>How To Play</button>
+        <button onClick={()=>{nav('/play',{state:{players}})}}>Play Game </button>
+        <button onClick={()=>{nav('/howto',{state:{players}})}}>How To Play</button>
       </div>
     </div>
 
