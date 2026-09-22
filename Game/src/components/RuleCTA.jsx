@@ -18,8 +18,8 @@ const Rule = () => {
             </div>
             */}
           </div>
-          <p>Designed by Eric P.Ferry</p>
-          <p>Fast, Tense, Addictive Card Flipping</p>
+          <p className="text-[#c77d98]">Designed by Eric P.Ferry</p>
+          <p className="text-[#c77d98]">Fast, Tense, Addictive Card Flipping</p>
           <div className=" flex flex-row gap-10  pt-4">
             <div className=" text-[#5c2438] bg-white flex flex-col gap-3 justify-center items-center p-6 rounded-xl ">
               <Users />
@@ -38,7 +38,7 @@ const Rule = () => {
             </div>
           </div>
           <h3 className="text-[#5c2438]">The Objective</h3>
-          <p>
+          <p className="text-[#c77d98]">
             Score the most points by flipping cards into your active row. Bank
             your points by choosing to <span>Freeze,</span> or push your luck to
             collect <span>7 unique number cards</span> for a massive jackpot

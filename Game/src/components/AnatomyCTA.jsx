@@ -2,11 +2,11 @@ import { PlayingCards, Snowflake } from "lucide-react";
 const Anatomy = () => {
   return (
     <>
-      <h3 className="pl-30 pb-10">Anatomy of a turn</h3>
+      <h3 className="pl-30 pb-10 text-[#5c2438]">Anatomy of a turn</h3>
       <div className="pl-30 pb-10">
         <div className="box">
           <h3 className="text-[#5c2438]">Flip or Freeze </h3>
-          <p>
+          <p className="text-[#c77d98]">
             On your turn, choose to FLIP the top card from the deck into your
             collection, or FREEZE to lock in and safely bank your accumulated
             round points
@@ -28,7 +28,7 @@ const Anatomy = () => {
       <div className="pl-30 pb-10 grid grid-cols-3 gap-20">
         <div className="a-box ">
           <h3 className="text-[#5c2438]">Avoid the Duplicate </h3>
-          <p>
+          <p className="text-[#c77d98]">
             Cards numbered 0 through 12 populate the deck.If you flip a number
             you already have in your active hand this round: YOU BUST! You
             forefiet all points accumulated for this round.
@@ -36,7 +36,7 @@ const Anatomy = () => {
         </div>
         <div className="a-box">
           <h3 className="text-[#5c2438]">Flip 7= Jackpot! </h3>
-          <p>
+          <p className="text-[#c77d98]">
             If you successfully reveal 7 unique number cards without busting,
             you trigger an instant round win, collect an extra +15 bonus points,
             and immediately lock in your score
