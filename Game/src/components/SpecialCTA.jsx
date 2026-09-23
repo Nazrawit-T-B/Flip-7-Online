@@ -6,13 +6,14 @@ const Special=()=>{
         <div className="a-box ">
           <h3 className="text-[#5c2438]">Second Chance </h3>
           <p className="text-[#c77d98]">
-           Hold this card in front of you.When you draw a duplicate number card that would bust you, discard Second Chance instead of busting!
+           Hold this card in front of you. When you draw a duplicate number card that would bust you, discard Second Chance instead of busting!
           </p>
         </div>
         <div className="a-box">
           <h3 className="text-[#5c2438]">Freeze Card </h3>
           <p className="text-[#c77d98]">
-         Forces a chosen player (or yourself) to immediately stop flipping and lock in their current card score for the round
+         Forces a chosen player (or yourself) to immediately stop flipping and lock in their current card score for the round.
+         {/**Checking if github is working */}
           </p>
         </div>
         <div className="a-box">
