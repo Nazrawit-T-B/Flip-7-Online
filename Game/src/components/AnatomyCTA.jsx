@@ -2,8 +2,8 @@ import { PlayingCards, Snowflake } from "lucide-react";
 const Anatomy = () => {
   return (
     <>
-      <h3 className="pl-30 pb-10 text-[#5c2438]">Anatomy of a turn</h3>
-      <div className="pl-30 pb-10">
+      <h3 className="pl-5 md:pl-30 pt-10 pb-10 text-[#5c2438]">Anatomy of a turn</h3>
+      <div className="pl-5 md:pl-30 pt-5 md:pt-10 pb-10">
         <div className="box">
           <h3 className="text-[#5c2438]">Flip or Freeze </h3>
           <p className="text-[#c77d98]">
@@ -25,7 +25,7 @@ const Anatomy = () => {
           </div>
         </div>
       </div>
-      <div className="pl-30 pb-10 grid grid-cols-3 gap-20">
+      <div className="pl-30 pb-10 grid grid-cols-3 gap-20 ">
         <div className="a-box ">
           <h3 className="text-[#5c2438]">Avoid the Duplicate </h3>
           <p className="text-[#c77d98]">

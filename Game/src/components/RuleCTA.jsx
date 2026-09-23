@@ -2,7 +2,7 @@ import { Users, AlarmClock, Award, BadgeCheck } from "lucide-react";
 const Rule = () => {
   return (
     <>
-      <div className="pl-30 pt-10 pb-10">
+      <div className="pl-5 md:pl-30 pt-10 pb-10">
         <div className="box">
           <div className="flex flex-row gap-30">
             <div className="text-[#5c2438]">
