@@ -25,24 +25,24 @@ const Anatomy = () => {
           </div>
         </div>
       </div>
-      <div className="pl-30 pb-10 grid grid-cols-3 gap-20 ">
-        <div className="a-box ">
-          <h3 className="text-[#5c2438]">Avoid the Duplicate </h3>
-          <p className="text-[#c77d98]">
-            Cards numbered 0 through 12 populate the deck.If you flip a number
-            you already have in your active hand this round: YOU BUST! You
-            forefiet all points accumulated for this round.
-          </p>
-        </div>
-        <div className="a-box">
-          <h3 className="text-[#5c2438]">Flip 7= Jackpot! </h3>
-          <p className="text-[#c77d98]">
-            If you successfully reveal 7 unique number cards without busting,
-            you trigger an instant round win, collect an extra +15 bonus points,
-            and immediately lock in your score
-          </p>
-        </div>
-      </div>
+ <div className="px-4 pb-10 md:pl-30 md:pr-0 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-20">
+  <div className="a-box">
+    <h3 className="text-[#5c2438]">Avoid the Duplicate</h3>
+    <p className="text-[#c77d98]">
+      Cards numbered 0 through 12 populate the deck. If you flip a number
+      you already have in your active hand this round: YOU BUST! You
+      forfeit all points accumulated for this round.
+    </p>
+  </div>
+  <div className="a-box">
+    <h3 className="text-[#5c2438]">Flip 7 = Jackpot!</h3>
+    <p className="text-[#c77d98]">
+      If you successfully reveal 7 unique number cards without busting,
+      you trigger an instant round win, collect an extra +15 bonus points,
+      and immediately lock in your score.
+    </p>
+  </div>
+</div>
     </>
   );
 };
