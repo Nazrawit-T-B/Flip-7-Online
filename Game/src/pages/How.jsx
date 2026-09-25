@@ -13,7 +13,7 @@ const How = () => {
       <RuleCTA />
       <Anatomy />
       <Special />
-      <div className="flex flex-row items-center justify-center gap-10 pb-5">
+      <div className="flex flex-row items-center justify-center gap-5 pb-5">
         <button onClick={()=>{
           nav('/play',{state:{players}})
         }}>Play Game </button>

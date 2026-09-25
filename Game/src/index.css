@@ -140,15 +140,14 @@ button:hover {
 }
 .game-board {
   position: relative;
-
+  padding-top:30px;
   width: 1000px;
   height: 720px;
-
   margin: auto;
-
-  border: 2px solid #5c2438;
 }
-
+.deck {
+  color: #333; 
+}
 .player {
   position: absolute;
   color:#5c2438;
@@ -163,9 +162,6 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-/* =========================
-   Mobile View
-   ========================= */
 
 @media (max-width: 768px) {
 
@@ -197,7 +193,6 @@ button:hover {
     box-sizing: border-box;
   }
 
-  /* Game board */
   .game-board {
     width: 95vw;
     height: 70vh;
@@ -206,7 +201,6 @@ button:hover {
     box-sizing: border-box;
   }
 
-  /* Players */
   .player {
     width: 100px;
     height: 75px;
@@ -214,17 +208,11 @@ button:hover {
     box-sizing: border-box;
   }
 
-  /* Buttons */
   button {
     padding: 0.5em 1em;
     font-size: 1em;
   }
 }
-
-
-/* =========================
-   Small Phones
-   ========================= */
 
 @media (max-width: 480px) {
 
