@@ -1,6 +1,7 @@
 import { useReducer, useState } from "react";
 import { useLocation } from "react-router-dom";
 import LAYOUTS from "../../layouts/layouts";
+import { useNavigate,useLocation } from "react-router-dom";
 import {
   createGame,
   reducer,
@@ -8,7 +9,7 @@ import {
   cardText,
   WIN_SCORE,
 } from "../logic/gameLogic";
-
+const nav = useNavigate();
 const STATUS = {
   active: null,
   stayed: { label: "Stayed", cls: "bg-slate-500" },
@@ -59,6 +60,7 @@ const Btn = ({ className = "", ...props }) => (
 );
 
 const HowToPlay = ({ onClose }) => (
+  
   <div
     className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
     onClick={onClose}
@@ -103,6 +105,9 @@ const HowToPlay = ({ onClose }) => (
       >
         Got it
       </Btn>
+      <Btn  onClick={()=>{
+          nav('/howto',{state:{players}})
+        }}>Learn More</Btn>
     </div>
   </div>
 );
