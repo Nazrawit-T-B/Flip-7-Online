@@ -1,7 +1,7 @@
 import { useReducer, useState } from "react";
 import { useLocation } from "react-router-dom";
 import LAYOUTS from "../../layouts/layouts";
-import { useNavigate,useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   createGame,
   reducer,
