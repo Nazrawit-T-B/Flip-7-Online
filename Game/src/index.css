@@ -150,7 +150,6 @@ button:hover {
 }
 .player {
   position: absolute;
-  color:#5c2438;
   transform: translate(20%, -50%);
 
   width: 140px;
